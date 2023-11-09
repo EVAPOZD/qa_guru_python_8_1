@@ -13,5 +13,5 @@ def test_first(browser_f):
 
 def test_second(browser_f):
     browser.open('https://google.com')
-    browser.element('[name="q"]').should(be.blank).type('erhsdffhyurtru').press_enter()
-    browser.element('[id="search"]').should(have.no.text('erhsdffhyurtru'))
+    browser.element('[name="q"]').should(be.blank).type('123123123').press_enter()
+    browser.element('[id="search"]').should(have.no.text('123123123'))
