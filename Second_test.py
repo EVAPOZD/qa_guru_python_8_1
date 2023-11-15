@@ -5,7 +5,7 @@ import pytest
 
 @pytest.fixture(scope="session")
 def browser_f():
-    browser.driver.set_window_size(800,600)
+    browser.driver.set_window_size(800, 600)
 
 
 def test_first(browser_f):
